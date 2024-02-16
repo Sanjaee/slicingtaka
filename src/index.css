@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: rgb(98, 98, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(98, 98, 86, 1) 24%,
+    rgba(48, 48, 28, 1) 63%,
+    rgba(34, 34, 9, 1) 83%
+  );
+}
